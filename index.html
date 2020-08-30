@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Restaurant decider</h1>
+
+<button onclick="myFunction()">choose one</button>
+
+<p id="demo"></p>
+
+<script>
+    const array = ["restaurant a","restaurant b","restaurant c"]
+
+    function myFunction() {
+        document.getElementById("demo").innerHTML = array[Math.floor(Math.random() * 3)];
+    }
+</script>
+
+</body>
+</html>
