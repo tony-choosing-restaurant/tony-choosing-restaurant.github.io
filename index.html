@@ -12,10 +12,10 @@
 <p style="font-size:5vw" id="demo"></p>
 
 <script>
-    const array = ["restaurant a","restaurant b","restaurant c"]
-
+    const array = ["彩云之南","筷乐湘聚","五味七品楼","restaurant a","restaurant b","restaurant c","restaurant d","restaurant e","restaurant f"]
+    var lenArray = array.length;
     function myFunction() {
-        document.getElementById("demo").innerHTML = array[Math.floor(Math.random() * 3)];
+        document.getElementById("demo").innerHTML = array[Math.floor(Math.random() * lenArray)];
     }
 </script>
 
